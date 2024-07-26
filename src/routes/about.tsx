@@ -6,12 +6,12 @@ export default function About() {
   return (
     <div>
       <div className="xl:h-screen w-full lg:py-[4rem]">
-        <Header title="About" optionalTitle="Me." color="white" />
+        <Header title="About" optionalTitle="Me." color="primary" />
         <div className="xl:p-10 flex flex-col lg:w-24 xl:w-full xl:flex-row xl:gap-12 justify-center">
           <Image
             url="/images/portrait.png"
             alt="Shallon Kobusinge"
-            props="object-cover xl:w-72 xl:h-72 mx-auto xl:mx-0 rounded-md  xl:rounded-[100%]"
+            props="object-cover xl:w-72 xl:h-72 mx-auto xl:mx-0 rounded-md p-4 xl:p-0  rounded-md xl:rounded-[100%]"
           />
 
           <div className="mx-2 xl:w-2/4 w-screen flex flex-col ">
