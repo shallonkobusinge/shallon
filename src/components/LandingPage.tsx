@@ -2,7 +2,6 @@ import {
   GithubOutlined,
   InstagramOutlined,
   LinkedinOutlined,
-  MailOutlined,
   TwitterOutlined,
 } from "@ant-design/icons";
 import { ButtonState } from "../enums/common";
@@ -26,11 +25,12 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col xl:w-2/6 gap-4 gap-10 " id="primary-font">
+        <div className="flex flex-col xl:w-2/6 gap-4 gap-10 xl:py-10 " id="primary-font">
           <span className="text-sm opacity-[0.6]">Hi, my name is</span>
           <h2 className="text-5xl font-medium">Shallon Kobusinge</h2>
+          <h2 className="text-4xl opacity-[0.6]">I build things with Technology</h2>
           <p className="opacity-[0.9]">
-            Building things with Technology. A Current Computer Science and Data
+            A Current Computer Science and Data
             Science College Student at California Institute of Technology.
           </p>
           <div className="flex my-6 xl:flex-row flex-col p-3 xl:p-0">
@@ -62,16 +62,6 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-
-        {/* <div className=" ">
-          <div className="">
-            <Image
-              url="/images/portrait.png"
-              alt="Shallon Kobusinge"
-              props="w-5/6 h-96 rounded object-cover"
-            />
-          </div>
-        </div> */}
       </div>
     </div>
   );
