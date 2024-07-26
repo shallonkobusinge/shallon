@@ -6,7 +6,7 @@ export function Image({ url, props, height, width, alt }: ImageProps) {
       height={height}
       width={width}
       alt={alt}
-      className={` ${props} opacity-[0.4] hover:opacity-[1]`}
+      className={` ${props} `}
     />
   );
 }

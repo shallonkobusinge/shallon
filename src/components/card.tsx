@@ -15,7 +15,7 @@ export function Card({ title, description, siteLink, imageUrl }: CardProps) {
         <Image
           url={imageUrl.url}
           alt={imageUrl.alt}
-          props=" w-full h-full object-fit"
+          props=" w-full h-full object-fit opacity-[0.4] hover:opacity-[1]"
         />
       </div>
     </div>
