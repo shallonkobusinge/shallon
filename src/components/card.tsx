@@ -8,7 +8,7 @@ export function Card({ title, description, siteLink, imageUrl }: CardProps) {
         <h1 className="uppercase text-white text-xl">{title}</h1>
         <p>{description}</p>
       </div>
-      <Link to={siteLink} className="underline text-primary">
+      <Link to={siteLink} className="underline opacity-[1] text-primary">
         {`Visit ${title}`}
       </Link>
       <div className=" ">

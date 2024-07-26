@@ -1,13 +1,6 @@
-import {
-  CaretRightFilled,
-  GithubOutlined,
-  InstagramOutlined,
-  MailOutlined,
-  TwitchOutlined,
-} from "@ant-design/icons";
-import { Icon } from "../components/Icon";
 import { Image } from "../components/Image";
 import Header from "../components/Header";
+import List from "../components/List";
 
 export default function About() {
   return (
@@ -21,7 +14,7 @@ export default function About() {
             props="object-cover w-72 h-72 rounded-[100%]"
           />
 
-          <div className=" mx-2 xl:w-2/4 w-screen flex justify-center items-center ml-10">
+          <div className=" mx-2 xl:w-2/4 w-screen flex flex-col  ml-10">
             <div className="flex gap-2 ">
               <div className="w-[1rem] h-[8rem] bg-primary p-1"></div>
               <div>
@@ -37,12 +30,22 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div>
-              <ul>
-                <li>
-                  <CaretRightFilled />
-                </li>
-              </ul>
+            <div className="p-4 ">
+              <h2 className="text-sm mb-2 ">
+                Here are a few technologies I've been working with recently:
+              </h2>
+              <div className="flex gap-10">
+                <div>
+                  <List title="React" />
+                  <List title="NextJs" />
+                  <List title="Python" />
+                </div>
+                <div>
+                  <List title="C" />
+                  <List title="NodeJs/Express" />
+                  <List title="Java" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

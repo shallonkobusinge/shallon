@@ -42,3 +42,7 @@ export interface HeaderProps {
   color?: string;
   props?: string;
 }
+
+export interface ListProps {
+  title: string;
+}
