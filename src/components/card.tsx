@@ -6,7 +6,7 @@ export function Card({ title, description, siteLink, imageUrl }: CardProps) {
     <div className="flex flex-col  xl:p-4 gap-5 xl:w-[30rem] xl:h-[30rem]  cursor-pointer ">
       <div className="xl:w-[30rem] flex flex-col justify-center mx-2">
         <h1 className="uppercase text-white text-xl">{title}</h1>
-        <p className="text-sm font-light">{description}</p>
+        <p className="text-sm">{description}</p>
       </div>
       <Link to={siteLink} className="underline opacity-[1] text-primary">
         {`Visit ${title}`}
@@ -15,7 +15,7 @@ export function Card({ title, description, siteLink, imageUrl }: CardProps) {
         <Image
           url={imageUrl.url}
           alt={imageUrl.alt}
-          props=" w-full h-full object-fit "
+          props=" w-full h-full object-fit"
         />
       </div>
     </div>

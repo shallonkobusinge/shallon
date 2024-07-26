@@ -25,7 +25,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col xl:w-2/6 gap-4 gap-10 xl:py-10 " id="primary-font">
+        <div className="flex flex-col xl:w-2/6 gap-4 gap-10 xl:py-10 mx-4 xl:mx-0 " id="primary-font">
           <span className="text-sm opacity-[0.6]">Hi, my name is</span>
           <h2 className="text-5xl font-medium">Shallon Kobusinge</h2>
           <h2 className="text-4xl opacity-[0.6]">I build things with Technology</h2>
