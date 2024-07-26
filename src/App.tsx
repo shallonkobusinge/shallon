@@ -24,9 +24,6 @@ function App() {
         <div>
           <Outlet />
         </div>
-        <div className="xl:p-10 m-4 lg:m-0 ">
-          <h1 className="text-xs self-end">© Shallon Kobusinge 2024</h1>
-        </div>
       </div>
 
       {/* <section id="section1" className="section">

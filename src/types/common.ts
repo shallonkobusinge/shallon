@@ -39,5 +39,6 @@ export interface ProjectProps extends CardProps {
 export interface HeaderProps {
   title: string;
   optionalTitle?: string;
+  color?: string;
   props?: string;
 }

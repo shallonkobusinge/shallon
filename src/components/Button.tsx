@@ -21,7 +21,7 @@ export function Button({
         <button
           className={`bg-${background} text-center cursor-pointer uppercase text-md font-medium ${
             borderColor != "none"
-              ? " border-primary border-solid"
+              ? "  border-solid"
               : ""
           } ${props}`}
         >

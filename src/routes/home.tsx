@@ -4,15 +4,18 @@ import LandingPage from "../components/LandingPage";
 
 export default function Home() {
   return (
-    <div>
-      <LandingPage />
-      <div id="about">
-        <About />
+    <>
+      {" "}
+      <div>
+        <LandingPage />
+        <div id="about">
+          <About />
+        </div>
+        <div id="works">
+          <Projects />
+        </div>
       </div>
-      <div id="works">
-        <Projects />
-      </div>
-    </div>
+    </>
 
     // <div>
     //   <div className="xl:p-10 flex flex-col w-24 xl:w-full xl:flex-row xl:gap-12 justify-between">
