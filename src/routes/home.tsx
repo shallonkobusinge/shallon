@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <>
       <div>
-        <LandingPage />
+        <div className="#">
+          <LandingPage />
+        </div>
         <div id="about">
           <About />
         </div>
